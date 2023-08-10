@@ -12,20 +12,23 @@ In an era characterized by the rapid evolution of digital media and the widespre
 
 1. Data Loading and Preprocessing: Load and preprocess the training and test image data. Data augmentation techniques are applied to the training data to increase the diversity of the dataset. We displayed 10 images of both real and fake images.
 
-2. Model Selection: Build our own customizable model and Choose a pre-trained model to serve as the base for the evaluation for image classification task. In this case, the ResNet model.
+2. Model Selection: Build our own customizable model and Choose a pre-trained model to serve as the base for the evaluation of the image classification task. In this case, the ResNet model.
 
 3. Compile the Model: Compile both the model by specifying the loss function, optimizer, and evaluation metrics.
 
 5. Training: Train the model using the pre-processed training data.
 
-6. Evaluation: Evaluate the trained model on the pre-processed test data to assess its accuracy and performance using classification report and confusion matrix
+6. Evaluation: Evaluate the trained model on the pre-processed test data to assess its accuracy and performance using a classification report and confusion matrix
 
 7. Prediction and Analysis: Generate predictions on the test data, calculate a classification report, and create a confusion matrix to analyze the model's performance.
 
 
 # Obervations:
 
-> It is noticeable that even though the pre-trained model has less accuracy even below 50% yet it provides the right output was well as in less time compared to our model
+> It is noticeable that even though the pre-trained model has less accuracy even below 50% yet it provides the right output as well as in less time compared to our model
 
 > In order to increase the accuracy of our model we could diversify the dataset and improve the data augmentation technique
+
+
+Dataset: https://www.kaggle.com/datasets/ciplab/real-and-fake-face-detection 
 
